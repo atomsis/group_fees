@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80c05255-4dbe-41e8-990f-8cf174be4945" name="Changes" comment=" Создана основа + Docker (всё кроме 5шага про менеджмент)">
+      <change afterPath="$PROJECT_DIR$/.idea/group_fees.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/.idea/group_fees.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/group_fees/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/group_fees/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/group_fees/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/group_fees/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/group_fees/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/money/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/money/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/money/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/money/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/money/migrations/0002_collect_collected_amount_collect_completion_date_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/money/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/money/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/money/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/money/templates/money/collection_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/money/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/money/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/money/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2egMBpCraPWJZ1VNOIQUKTbYiA6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.manage.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/atomsis/Downloads/PYTHON_PROJ_НА РАБОТЕ/DJANGO4/VC"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="group_fees" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/group_fees" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/group_fees/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80c05255-4dbe-41e8-990f-8cf174be4945" name="Changes" comment="" />
+      <created>1712321634140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712321634140</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Создана основа + Docker (всё кроме 5шага про менеджмент)" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Создана основа + Docker (всё кроме 5шага про менеджмент)" />
+  </component>
+</project>
