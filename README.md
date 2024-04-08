@@ -12,7 +12,6 @@
 - [Pillow](https://python-pillow.org/): Библиотека для работы с изображениями в Python.
 - [sqlparse](https://pypi.org/project/sqlparse/): Парсер SQL-запросов для Python.
 - [typing-extensions](https://pypi.org/project/typing-extensions/): Поддержка типов для Python 3.7 и выше.
-- [tzdata](https://pypi.org/project/tzdata/): Данные о временных зонах для Python.
 
 ## Запуск проекта через Docker
 1. Убедитесь, что у вас установлен Docker и Docker Compose.
