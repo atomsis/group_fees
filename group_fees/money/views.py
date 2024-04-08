@@ -50,3 +50,6 @@ def send_payment_email(payment):
     from_email = 'your_email@example.com'  # Ваша электронная почта
     to_email = 'recipient@example.com'  # Адрес электронной почты получателя
     send_mail(subject, message, from_email, [to_email])
+
+def test_html(request):
+    return render(request,'money/test_html.html')

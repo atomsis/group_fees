@@ -5,42 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80c05255-4dbe-41e8-990f-8cf174be4945" name="Changes" comment=" Создана основа + Docker (всё кроме 5шага про менеджмент)">
-      <change afterPath="$PROJECT_DIR$/.idea/group_fees.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/.idea/group_fees.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/group_fees/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/group_fees/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/group_fees/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/group_fees/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/group_fees/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/money/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/money/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/money/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/money/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/money/migrations/0002_collect_collected_amount_collect_completion_date_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/money/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/money/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/money/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/money/templates/money/collection_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/money/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/money/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/money/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/money/management/commands/populate_collects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_fees/money/templates/money/test_html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/group_fees.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/group_fees.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group_fees/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/group_fees/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group_fees/money/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/group_fees/money/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group_fees/money/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/group_fees/money/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Dockerfile" />
         <option value="Python Script" />
         <option value="HTML File" />
-        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -75,7 +47,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/atomsis/Downloads/PYTHON_PROJ_НА РАБОТЕ/DJANGO4/VC"
+    "last_opened_file_path": "K:/PY proj/group_fees/group_fees",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RunManager">
@@ -110,7 +83,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
