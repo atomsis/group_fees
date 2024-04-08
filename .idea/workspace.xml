@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80c05255-4dbe-41e8-990f-8cf174be4945" name="Changes" comment=" Создана основа + Docker (всё кроме 5шага про менеджмент)">
-      <change afterPath="$PROJECT_DIR$/group_fees/money/management/commands/populate_collects.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_fees/money/templates/money/test_html.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/group_fees.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/group_fees.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/group_fees/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/group_fees/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/group_fees/money/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/group_fees/money/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/group_fees/money/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/group_fees/money/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/group_fees/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/group_fees/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.manage.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "K:/PY proj/group_fees/group_fees",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;K:/PY proj/group_fees/group_fees&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="group_fees" />
@@ -96,6 +90,15 @@
       <option name="presentableId" value="Default" />
       <updated>1712321634140</updated>
     </task>
+    <task id="LOCAL-00001" summary=" Создана основа + Docker (всё кроме 5шага про менеджмент)">
+      <option name="closed" value="true" />
+      <created>1712567790469</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712567790469</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
